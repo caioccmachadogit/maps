@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9b1a38</color>
+    <color name="colorPrimaryDark">#81091f</color>
+    <color name="colorAccent">#9b1a38</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="cinza_texto">#414042</color>
+    <color name="transparencia">#55000000</color>
+    <color name="login_perfil"> #7b868c</color>
+    <color name="redimonitoreUnSelected">#9b1a38</color>
+    <color name="redimonitoreSelected">#81091f</color>
+    <color name="cinzaTopo">#f0eceb</color>
+    <color name="cinza"> #bcbec0</color>
+    <color name="verde">#34a94a</color>
+    <color name="vermelho">#ef0413</color>
+    <color name="preto">#000</color>
+    <color name="bar_select_t">#FFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="accent">#FFEB3B</color>
+    <color name="accent_translucent">#80FFEB3B</color>
+    <color name="accent_bright">#FFF493</color>
+</resources>

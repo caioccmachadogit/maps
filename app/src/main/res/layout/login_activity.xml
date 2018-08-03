@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="@dimen/dimens_40"
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparencia">
+
+        <LinearLayout
+            android:padding="@dimen/dimens_10"
+            android:orientation="vertical"
+            android:id="@+id/relLoginDois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rel_login">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tiCodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:text="1"
+                    android:id="@+id/etCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Código"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tiUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:text="1"
+                    android:id="@+id/etUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Usuário"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tiSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:text="1"
+                    android:id="@+id/etSenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:hint="Senha"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/selector_button_border"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/btEntrar"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_20"
+                android:layout_marginBottom="@dimen/dimens_20"
+                android:text="@string/entrar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparencia">
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_400"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rel_login">
+
+
+        <RelativeLayout
+            android:id="@+id/relMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvMensagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimens_12"
+                android:text="@string/mensagem_desconhecida"
+                android:textAlignment="center"
+                android:textColor="@color/cinza_texto"
+                android:textSize="@dimen/dimens_25"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="@dimen/dimens_150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dimens_25"
+            android:layout_marginTop="@dimen/dimens_100"
+            android:background="@drawable/selector_button_border"
+            android:text="@string/ok"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

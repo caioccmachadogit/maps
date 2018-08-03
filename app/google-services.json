@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "731444904454",
+    "firebase_url": "https://mapsapplication-f7e36.firebaseio.com",
+    "project_id": "mapsapplication-f7e36",
+    "storage_bucket": "mapsapplication-f7e36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731444904454:android:a15a8624987cff36",
+        "android_client_info": {
+          "package_name": "base.imonitore.com.br.mapsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731444904454-egh3mjqfsst60it83bamcel0906bl7uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkEQxZHIQfL0zVstEiePKIZKL3EypjlTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

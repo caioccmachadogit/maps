@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Bloco 1: Conteúdo da Tela -->
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_toolbar" />
+
+        <!-- Conteúdo: layout de marcação para fragments -->
+        <!--<FrameLayout-->
+        <!--android:id="@+id/container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+        <!-- Conteúdo: layout de marcação para fragments -->
+
+        <!-- Conteúdo: layout de marcação para Linear -->
+        <LinearLayout
+            android:background="@color/colorWhite"
+            android:id="@+id/content_view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/include_codigo_data"
+                layout="@layout/include_codigo_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/dimens_40"
+                android:layout_marginTop="@dimen/dimens_30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title padrao"
+                    android:textColor="@color/redimonitoreUnSelected"
+                    android:textSize="@dimen/dimens_25"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!-- Conteúdo: layout de marcação para Linear -->
+
+
+    </LinearLayout>
+
+    <!-- Bloco 2: Nav Drawer (menu lateral deslizante) -->
+    <android.support.design.widget.NavigationView
+        android:background="@color/redimonitoreUnSelected"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/colorWhite"
+        app:headerLayout="@layout/nav_drawer_header"
+        android:theme="@style/NavigationDrawerStyle"/>
+
+</android.support.v4.widget.DrawerLayout>

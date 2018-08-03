@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>base_url_desenv</key>
+        <value>http://desenv.app.imonitore.com.br:8180/</value>
+    </entry>
+    <entry>
+        <key>base_url_teste</key>
+        <value>http://teste.imonitore.com.br:8180/</value>
+    </entry>
+    <entry>
+        <key>base_url_prod</key>
+        <value>https://app.imonitore.com.br/</value>
+    </entry>
+
+    <entry>
+        <key>rsa_key_value_desenv</key>
+        <value>{"modulus":"xVnuHhWx7LZ9Zg6QRuvvlm7gqB4ppgJFR9U+CO7zsykyt6MtIpDCN6IEptAkkxJ7bqCFhIblXtMeg0II59yEMy5SxeAT3BLQPlRLqp6SU8fgSGj0HJmnUR6Tkj9gb1lz/2zL0v6Ou7WPInxnpoOrdYVUQrUfsRyREounu+j3M38j38IaCr0RwAmeeevSYpiJlBzmFP1a4nx/lZgvZdStIzI3AYXVOpqEDAOPAF/9r2BJy2r3ElDMGHQqUAm5ov0bhESqUYMMlrwpsQtRewZ5SQzRJcEWLn916PDKCPCuf/WOYZQrmWbGEr98Wo/ssBTqKG1arCcCappLh9jy9p2rHQ==","exponent":"AQAB"}</value>
+    </entry>
+    <entry>
+        <key>rsa_key_value_teste</key>
+        <value>{"modulus":"xVnuHhWx7LZ9Zg6QRuvvlm7gqB4ppgJFR9U+CO7zsykyt6MtIpDCN6IEptAkkxJ7bqCFhIblXtMeg0II59yEMy5SxeAT3BLQPlRLqp6SU8fgSGj0HJmnUR6Tkj9gb1lz/2zL0v6Ou7WPInxnpoOrdYVUQrUfsRyREounu+j3M38j38IaCr0RwAmeeevSYpiJlBzmFP1a4nx/lZgvZdStIzI3AYXVOpqEDAOPAF/9r2BJy2r3ElDMGHQqUAm5ov0bhESqUYMMlrwpsQtRewZ5SQzRJcEWLn916PDKCPCuf/WOYZQrmWbGEr98Wo/ssBTqKG1arCcCappLh9jy9p2rHQ==","exponent":"AQAB"}</value>
+    </entry>
+    <entry>
+        <key>rsa_key_value_prod</key>
+        <value>{"modulus":"xVnuHhWx7LZ9Zg6QRuvvlm7gqB4ppgJFR9U+CO7zsykyt6MtIpDCN6IEptAkkxJ7bqCFhIblXtMeg0II59yEMy5SxeAT3BLQPlRLqp6SU8fgSGj0HJmnUR6Tkj9gb1lz/2zL0v6Ou7WPInxnpoOrdYVUQrUfsRyREounu+j3M38j38IaCr0RwAmeeevSYpiJlBzmFP1a4nx/lZgvZdStIzI3AYXVOpqEDAOPAF/9r2BJy2r3ElDMGHQqUAm5ov0bhESqUYMMlrwpsQtRewZ5SQzRJcEWLn916PDKCPCuf/WOYZQrmWbGEr98Wo/ssBTqKG1arCcCappLh9jy9p2rHQ==","exponent":"AQAB"}</value>
+    </entry>
+
+</defaultsMap>

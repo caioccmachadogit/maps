@@ -1,0 +1,24 @@
+{
+  "idCFC": "4",
+  "token": "12345678",
+  "urlBrasaoEstado": "www.imonitore.com.br/urlBrasaoEstado",
+  "urlLogoDetran": "www.imonitore.com.br/urlLogoDetran",
+  "apiAcessToken": "999999",
+  "codigoEmpresa": "999999",
+  "roles": [
+    "ADM"
+  ],
+  "pessoa": {
+    "idPessoa": 10,
+    "nomePessoa": "Rodolfo fulini",
+    "cpfPessoa": "22968366823",
+    "rgPessoa": 23456788,
+    "midias": [
+      {
+        "urlMidia": "www.imonitore.com.br/urlMidia",
+        "tipoMidia": 2,
+        "formatoMidia": "jpg"
+      }
+    ]
+  }
+}

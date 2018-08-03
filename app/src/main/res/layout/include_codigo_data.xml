@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cinzaTopo"
+    android:paddingBottom="@dimen/dimens_20"
+    android:paddingLeft="@dimen/dimens_40"
+    android:paddingRight="@dimen/dimens_40"
+    android:paddingTop="@dimen/dimens_20">
+
+    <RelativeLayout
+        android:id="@+id/relCodigoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/relCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvCodigoAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/codigoAdmin"
+                android:textColor="@color/cinza_texto"
+                android:textSize="@dimen/dimens_15" />
+
+            <TextView
+                android:id="@+id/tvCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimens_10"
+                android:layout_toRightOf="@+id/tvCodigoAdmin"
+                android:text="@string/codigoAdminAdmin"
+                android:textColor="@color/cinza_texto"
+                android:textSize="@dimen/dimens_15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens_30">
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data"
+                android:textColor="@color/cinza_texto"
+                android:textSize="@dimen/dimens_15" />
+
+
+            <TextView
+                android:id="@+id/tvDataData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimens_10"
+                android:layout_toRightOf="@+id/tvData"
+                android:text="@string/dataData"
+                android:textColor="@color/cinza_texto"
+                android:textSize="@dimen/dimens_15" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
